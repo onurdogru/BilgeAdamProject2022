@@ -1,0 +1,327 @@
+﻿@model List<MarsHostelProject.Models.Entity.Room>
+<!doctype html>
+<html lang="en">
+<head>
+    <!--önemli meta etiketleri-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Calendar Part 1-->
+    <link href="~/Content/css/mc-calender.min.css" rel="stylesheet" />
+
+
+    <title>Mars Hostel </title>
+
+    <!--Bootstrap CSS kısmı-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!--FontStart-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <!--FontEnd-->
+
+    <link rel="stylesheet" href="~/Content/css/site.css">
+
+    <!--Awesome Icons link-->
+    <script src="https://kit.fontawesome.com/00a7db679d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+    <!--Menü kısmı Başlangıç-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mars Hostel  |  Travel the Planet with Us </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Home</a>
+                        <<a name="carouselExampleIndicators"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rezervasyon">Rezervation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#travellers">Our Travellers</a>
+                    </li>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Menü kısmı Bitiş-->
+    <!--Slider Başlangıç (Hareketli Banner)-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/Content/images/Banner1.jpg" class="d-block w-100 resimSlider" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Content/images/banner2.jpg" class="d-block w-100 resimSlider" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Content/images/banner3.jpg" class="d-block w-100 resimSlider" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="~/Content/images/banner4.jpg" class="d-block w-100 resimSlider" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="~/Content/images/banner5.jpg" class="d-block w-100 resimSlider" alt="...">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Slider Bitiş (Hareketli Banner)-->
+    <!--Hakkımızda Başlangıç-->
+
+
+
+    <section class="p-5 text-center hakkimizda" id="aboutus">
+        <div class="container">
+            <br>
+            <br>
+
+
+            <h2 class="mb-5 font-weight-bold">About Us</h2>
+            <hr class="ayrac"><i class="fa-solid fa-masks-theater ibeyaz"></i>
+
+            <p>
+                The Mars Hostel is proudly borne by a growing collection of distinguished properties around the world. As Europe’s oldest luxury hostel group, we are committed to providing our guests with memorable journeys inspired by exquisite European flair. We believe life should be lived with style.
+            </p>
+
+            <p>
+                Each year, an increasing number of guests come to appreciate these qualities, as Mars Hostel adds new, exciting destinations in Europe, the Middle East, Africa, Asia and The Americas. While this growth reflects the strength and success of the Mars Hostel brand, the collection will remain a limited one, where exclusivity can be nurtured and individuality can flourish.
+            </p>
+
+            <p>We believe that our prestigious, European heritage puts Mars Hostel in a unique position to satisfy the expectations of the stylish and discerning traveller. It’s not just to simply provide a hostel bed and a meal, at Mars Hostel it’s all about bringing a story to life.</p>
+
+            <br>
+            <!--Social Media Icons Start-->
+            <!-- Add icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- Add font awesome icons -->
+            <a href="https://tr-tr.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+            <a href="https://mail.google.com/mail/" class="fa fa-google"></a>
+            <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+
+
+            <!--Social Media Icons Finish-->
+
+
+        </div>
+        <br>
+        <br>
+
+    </section>
+
+    <!--Hakkımızda Bitiş-->
+    <!--Rezervasyon Başlangıç-->
+
+
+
+    <section class="p-5 text-center rezervasyon" id="rezervasyon">
+        <div class="container">
+            <br>
+            <br>
+
+            <h2 class="mb-5 font-weight-bold">Rezervation</h2>
+            <hr class="ayrac"><i class="fa-solid fa-masks-theater ibeyaz2"></i>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    @foreach (var item in Model)
+                    {
+                        <div class="carousel-item active">
+                            <img src="@item.ImagePath" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>@item.Description</p> <br />
+                                <p>Room Price Daily: @item.Price $</p>
+                                <a class="btn btn-warning mt-3" href="/Home/Rezervation/@item.ID">Rezervation</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            @if (TempData["message"] != null)
+            {
+                <h3>@TempData["message"]</h3>
+            }
+            
+            
+            <!--2.part Date Bitiş-->
+
+            <br>
+            <form action="/url" method="GET">
+                <br>
+            </form>
+            <br />
+        </div>
+
+        <br>
+        <br>
+
+    </section>
+
+
+
+    <!--Rezervasyon bitiş-->
+    <!--Travellers Başlangıç-->
+
+    <section class="p-5 text-center gezginler" id="travellers">
+        <div class="container"></div>
+        <br>
+        <br>
+
+
+        <h2 class="mb-5 font-weight-bold">Our Travellers Comments</h2>
+        <hr class="ayrac"><i class="fa-solid fa-masks-theater ibeyaz"></i>
+
+        <!--Cardlar-gezginler-Başlangıç-->
+
+        <div class="card-group">
+            <div class="card shadow ekipCard">
+                <img src="~/Content/images/traveller1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Onur Dogru</h5>
+                    <p class="card-text">Istanbul, Turkey</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Once again we had a very good stay at Tulyarvan mill. The location is perfect for the areas we wished to visit. The room was nice and clean and facilities for cooking more than sufficient and the shared areas were kept clean while we were there at all times. There was no noise nor disturbances . Staff were available and helpful. We will definitely choose to come back again.🤩🚀🌊</small>
+                </div>
+            </div>
+            <div class="card shadow ekipCard">
+                <img src="~/Content/images/traveller2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">John Cole</h5>
+                    <p class="card-text">Dublin, Ireland</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        Fairly quiet hostel in a nice location about 15 min walk from everywhere you would want to see in Buncrana. Good place to catch up on some sleep but not an overly social hostel. Check in lady was nice, shower was warm, bed was clean & comfortable. For what I required on that particular day it was perfectly fine.
+                        Ireland, Male, 31-40
+                    </small>
+                </div>
+            </div>
+            <div class="card shadow ekipCard">
+                <img src="~/Content/images/traveller3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nina Gomez</h5>
+                    <p class="card-text">Barcelona, Spain</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        We had a really good experience here. We spend one night and it was unforeseen, because we had a host from couchsurfing who at the last minute cancelled the stay. In Tullyarvan Mill Hostel we found a warm bed. If u like good food, try Oscar’s in Buncrana, you won’t regret it! Thank you so much for everything, good luck and I hope we’ll see each other again.
+                        Spain ❤️😊🌿
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <br>
+        <br>
+        <hr class="ayrac"><i class="fa-solid fa-masks-theater ibeyaz"></i>
+
+        <div class="card-group">
+            <div class="card shadow ekipCard">
+                <img src="~/Content/images/traveller4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Angelina Ospado</h5>
+                    <p class="card-text">Lima, Peru</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">I really like this hostel. Yes, the male dorm is big, but rarely full. Wifi strong, and great, fully fitted kitchen. Staff not always at hand, but helpful once available. Toilets and showers very clean. Short, pleasant walk into town. Not a party hostel, with many families. That’s fine, given the beauty of the surrounding countryside. Each person gets a key to dorm, and free key to bedside locker. Bring own towels. 24 hour access via door keypad. If arriving late, ring ahead.</small>
+                </div>
+            </div>
+            <div class="card shadow ekipCard">
+                <img src="~/Content/images/traveller5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Julia Leaf</h5>
+                    <p class="card-text">Sidney, Australia</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Tullyarvan mill was a great location for us to stay . If you love Donegal and Inishowen then this is a great place to base yourself as everywhere is accessible. Despite it;s proximity to Buncrana there was no interuptions due to traffic noise. The facilities were clean and sufficient for our needs . Great value .Only one concern is access to and from particulalry exiting from the hostel onto the public road , visibility is not very good. 💕✨📷</small>
+                </div>
+            </div>
+            <div class="card shadow ekipCard">
+                <img src="~/Content/images/traveller6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Kalina Androvko</h5>
+                    <p class="card-text">Lviv, Ukraine</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        Staff were fabulous, friendly, helpful, and informative! They gave us a tour of the historical part of the facility which was educational and wonderful, a map with trails marked on it for things to see in and around the town, helped introduce me to the local Garda when I asked questions about them and even went the extra mile to get a hold of me when I left some of my belongings behind on accident when we left!
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+
+        <!--Cardlar-gezginler-Bitiş-->
+
+
+    </section>
+
+    <!--Travellers Bitiş-->
+    <!--Footer Başlangıç-->
+    <div class="bg-dark text-light text-center">
+        <p class="align-middle p-5 mb-0"></p>
+        <span>All rights reserved &copy; | 2022</span><br>
+        <span>Design by <b>Onur Dogru</b></span>
+        <br>
+    </div>
+
+    <!--Footer Bitiş-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
